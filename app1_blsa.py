@@ -6,6 +6,10 @@ import streamlit as st
 
 st.title('Mi primer app')
 
+st.header('Hacer clic en los botones para generar un histograma o un gráfico de dispersión respectivamente')
+
+
+
 car_data = pd.read_csv('vehicles_us.csv')
 
 hist_button = st.button('Construir histogramas') 
